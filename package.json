@@ -13,5 +13,18 @@
     "express": "~4.14.0",
     "morgan": "~1.7.0",
     "serve-favicon": "~2.3.0"
-  }
+  },
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashleydonohoe/groceryshophelper-webapp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashleydonohoe/groceryshophelper-webapp/issues"
+  },
+  "homepage": "https://github.com/ashleydonohoe/groceryshophelper-webapp#readme",
+  "description": ""
 }
