@@ -21,9 +21,9 @@ body {
     background-color: #F2F1EF;
 }
 
-.btn-default {
+#new-item-button {
     display: block;
-    float: left;
+    margin: 0 auto;
 }
 
 form,
@@ -35,4 +35,14 @@ form,
     box-shadow: 1px 1px 1px 1px gray;
     padding: 0.5%;
     background: white;
+}
+
+@media(max-width: 420px) {
+  h3 {
+      font-size: 18px;
+  }
+
+    h4 {
+        font-size: 14px;
+    }
 }

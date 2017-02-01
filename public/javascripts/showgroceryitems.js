@@ -2,52 +2,35 @@ var groceryItemModel =  [
     {
         name: "bacon",
         quantity: 2,
-        price: 3.99
+        price: "$3.99"
     },
     {
         name: "ice cream",
         quantity: 1,
-        price: 5.00
+        price: "$5.00"
     },
     {
         name: "bread",
         quantity: 3,
-        price: 1.99
+        price: "$1.99"
     },
     {
         name: "paper towels",
         quantity: 8,
-        price: 0.99
+        price: "$0.99"
     },
     {
         name: "cheese",
         quantity: 1,
-        price: 2.50
+        price: "$2.50"
     }
 ];
-
-// <div class="col-md-3">
-//     <h4>Quantity</h4>
-//     </div>
-//
-//     <div class="col-md-3">
-//     <h4>Item Name</h4>
-// </div>
-//
-// <div class="col-md-3">
-//     <h4>Price</h4>
-//     </div>
-//
-//     <div class="col-md-3">
-//     <button class="btn btn-default">Edit</button>
-//     <button class="btn btn-default">Delete</button>
-//     </div>
 
 const itemArea = document.getElementById("item-area");
 var itemListCode = "";
 
 function addInfoColumn(item) {
-    var element =  "<div class='col-sm-3'>";
+    var element =  "<div class='col-xs-3'>";
     element += "<h4>" + item + "</h4>";
     element += "</div>";
     return element
