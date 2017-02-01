@@ -26,6 +26,13 @@ body {
     float: left;
 }
 
-form {
+form,
+#item-list {
     margin-top: 2%;
+}
+
+#item-list {
+    box-shadow: 1px 1px 1px 1px gray;
+    padding: 0.5%;
+    background: white;
 }
