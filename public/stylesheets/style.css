@@ -1,5 +1,10 @@
-.navbar {
+.navbar,
+.btn-default,
+.btn-default:hover,
+.btn-default:active:focus,
+.btn-default:active {
     background-color: #E74C3C;
+    color: white;
 }
 
 .navbar-default .navbar-nav>li>a,
@@ -10,4 +15,17 @@
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
     background-color: white;
     color: #E74C3C;
+}
+
+body {
+    background-color: #F2F1EF;
+}
+
+.btn-default {
+    display: block;
+    float: left;
+}
+
+form {
+    margin-top: 2%;
 }
